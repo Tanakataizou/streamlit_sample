@@ -11,3 +11,5 @@ df=pd.DataFrame(
     }
 )
 st.write(df)
+
+st.image("https://yossense.com/wp-content/uploads/browser-shortcut-672.jpg")
