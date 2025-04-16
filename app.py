@@ -33,3 +33,6 @@ uploaded_file=st.file_uploader("Upload",type=["csv"])
 if uploaded_file:
     dataflame=pd.read_csv(uploaded_file)
     st.write(dataflame)
+
+check=st.checkbox("ok")
+st.write(f"チェック:{check}")
