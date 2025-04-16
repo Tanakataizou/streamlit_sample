@@ -19,3 +19,9 @@ name=st.text_input("名前")
 age=st.number_input("年齢",step=1)
 
 st.write(f"名前:{name}({age})")
+
+if st.button("push"):
+    st.write("ボタンを押しました")
+
+select=st.selectbox("好きなスポーツ",options=["サッカー","野球","バスケットボール"])
+st.write(select)
