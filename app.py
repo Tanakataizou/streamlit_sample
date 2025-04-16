@@ -21,7 +21,7 @@ st.image("https://i3.gamebiz.jp/media/0af4eaca-9e9e-433f-b815-4a097e3836f1.jpg")
 #st.write(f"名前:{name}({age})")
 
 if st.button("push"):
-    st.write("ボタンを押しました")
+    st.write("たいき　一本")
 
 select=st.selectbox("好きなスポーツ",options=["サッカー","野球","バスケットボール","バドミントン"])
 st.write(f"あなたの好きなスポーツは{select}です")
@@ -41,4 +41,5 @@ myoji=st.text_input("苗字")
 namae=st.text_input("名前")
 st.write(f"私は{myoji}　{namae}です。よろしくお願いします。")
 
-st.balloons()
+if st.button("push"):
+    st.balloons()
