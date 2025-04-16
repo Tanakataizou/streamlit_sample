@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 
 radio = st.radio("選択", ["んなあ", "おしり"])
 if radio == "んなあ":
