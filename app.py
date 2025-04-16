@@ -25,3 +25,6 @@ if st.button("push"):
 
 select=st.selectbox("好きなスポーツ",options=["サッカー","野球","バスケットボール","バドミントン"])
 st.write(f"あなたの好きなスポーツは{select}です")
+
+radio=st.radio("選択",["猫","犬"])
+st.write(f"ラジオ:{radio}")
