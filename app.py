@@ -39,8 +39,8 @@ st.write(f"チェック:{check}")
 
 st.set_page_config(layout="wide")
 
-cols=st.colums(2)
-with cols[0]:
-    st.write("列1")
-with cols[1]:
-    st.write("列2")
+#cols=st.colums(2)
+#with cols[0]:
+ #   st.write("列1")
+#with cols[1]:
+  #  st.write("列2")
