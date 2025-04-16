@@ -24,4 +24,4 @@ if st.button("push"):
     st.write("ボタンを押しました")
 
 select=st.selectbox("好きなスポーツ",options=["サッカー","野球","バスケットボール","バドミントン"])
-st.write(select)
+st.write(f"あなたの好きなスポーツは{select}です")
