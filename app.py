@@ -27,4 +27,9 @@ select=st.selectbox("好きなスポーツ",options=["サッカー","野球","�
 st.write(f"あなたの好きなスポーツは{select}です")
 
 radio=st.radio("選択",["猫","犬"])
-st.write(f"ラジオ:{radio}")
+st.write(f"あなたが選択したものは:{radio}")
+
+uploaded_file=st.file_uploader("Upload",type=["csv"])
+if uploaded_file:
+    dataflame=pd.read_csv(uploaded_file)
+    st.write(dataflame)
