@@ -41,3 +41,4 @@ myoji=st.text_input("苗字")
 namae=st.text_input("名前")
 st.write(f"私は{myoji}　{namae}です。よろしくお願いします。")
 
+st.balloons()
