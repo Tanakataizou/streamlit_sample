@@ -14,11 +14,11 @@ st.write(df)
 
 st.image("https://i3.gamebiz.jp/media/0af4eaca-9e9e-433f-b815-4a097e3836f1.jpg")
 
-name=st.text_input("名前")
+#name=st.text_input("名前")
 
-age=st.number_input("年齢",step=1)
+#age=st.number_input("年齢",step=1)
 
-st.write(f"名前:{name}({age})")
+#st.write(f"名前:{name}({age})")
 
 if st.button("push"):
     st.write("ボタンを押しました")
@@ -37,9 +37,7 @@ if uploaded_file:
 check=st.checkbox("ok")
 st.write(f"チェック:{check}")
 
+myoji=st.text_input("苗字")
+namae=st.text_input("名前")
+st.write(f"私は{myoji}　{namae}です。よろしくお願いします。")
 
-cols=st.colums(2)
-with cols[0]:
-    st.write("列1")
-with cols[1]:
-    st.write("列2")
