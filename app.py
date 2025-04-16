@@ -18,5 +18,4 @@ name=st.text_input("なまえ")
 
 age=st.number_input("年齢",step=1)
 
-st.write(f"名前:{name}")
-st.write(f"年齢:{age}")
+st.write(f"名前:{name}年齢:{age}")
