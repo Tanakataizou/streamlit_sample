@@ -13,3 +13,5 @@ df=pd.DataFrame(
 st.write(df)
 
 st.image("https://i3.gamebiz.jp/media/0af4eaca-9e9e-433f-b815-4a097e3836f1.jpg")
+
+name=st.text_input("名前")
