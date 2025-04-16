@@ -8,3 +8,6 @@ if radio == "んなあ":
     st.write("それはんなあです") 
 else:
     st.write("あかん")
+
+if st.button("greeting"):
+    st.write("oyasumi")
